@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+requirements
+.vscode
+.idea
+package-lock.json
+yarn.lock
