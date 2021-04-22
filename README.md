@@ -6,15 +6,15 @@
 
 * Docker
 
+> Iniciar projeto
+
+* `docker-compose up -d` (OBS.: para rodar o projeto você necessita estar na pasta raiz após o git clone)
+
 > Iniciar testes
 
 * Rode os comandos: `docker exec -it calculator_app /bin/sh` e após `npm run test:ci`
 * Na pasta simulator rode o comando `go test -cover -coverprofile=tdd.out ./... && go tool cover -html=tdd.out -o index.html`
 * Rode os comandos: `docker exec -it tracker_error_app /bin/sh` e após `npm run test:ci`
-
-> Iniciar projeto
-
-* `docker-compose up -d` (OBS.: para rodar o projeto você necessita estar na pasta raiz após o git clone)
 
 ##### Documentação dos serviços
 
