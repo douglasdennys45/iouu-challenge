@@ -8,9 +8,9 @@
 
 > Iniciar testes
 
-* Na pasta calculator rode o comando `npm run test:ci`
+* Rode os comandos: `docker exec -it calculator_app /bin/sh` e após `npm run test:ci`
 * Na pasta simulator rode o comando `go test -cover -coverprofile=tdd.out ./... && go tool cover -html=tdd.out -o index.html`
-* Na pasta tracker-error rode o comando `npm run test:ci`
+* Rode os comandos: `docker exec -it tracker_error_app /bin/sh` e após `npm run test:ci`
 
 > Iniciar projeto
 
