@@ -19,7 +19,9 @@
 ##### Documentação dos serviços
 
 > [**Link para o swagger de tracker error**](http://localhost:8081/api-docs)
+ 
 > [**Link para o swagger de simulator**](http://localhost:8080/api-docs)
+
 > [**Link para o swagger de calculator**](http://localhost:8082/swagger/index.html)
 
 
